@@ -1,0 +1,7 @@
+MANIFEST
+Makefile.PL
+lib/LEOCHARRE/Checksetup.pm
+t/00.t
+t/01_mysqletc.t
+t/99_cleanup.sh
+META.yml                                 Module meta-data (added by MakeMaker)
