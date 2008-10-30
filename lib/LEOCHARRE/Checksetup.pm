@@ -7,14 +7,13 @@ use vars qw(@ISA %EXPORT_TAGS @EXPORT_OK $VERSION);
 @ISA = qw/Exporter/;
 @EXPORT_OK = qw(bad good ok_app ok_conf ok_mysql_local_server ok_os ok_perldeps ok_root say yn);
 %EXPORT_TAGS = ( all => \@EXPORT_OK );
-$VERSION = sprintf "%d.%02d", q$Revision: 1.2 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.3 $ =~ /(\d+)/g;
 
 
 
 sub bad;
 sub good;
 sub say;
-
 
 
 

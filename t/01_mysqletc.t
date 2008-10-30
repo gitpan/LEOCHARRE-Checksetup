@@ -4,8 +4,11 @@ use strict;
 use LEOCHARRE::Checksetup ':all';
 
 
+   `whoami`=~/root/ or ok(1,"is not rot, skipping") and exit;
+   
 ok_root();
 
+   
 
 my $daemon = '/etc/init.d/mysqld';
 
